@@ -17,7 +17,7 @@ function verificadorNumeros(pregunta) {
     let validado = validarDato(numero);
 
     while(validado) {
-        alert("Por favor, escribe un valor válido para los ingresos");
+        alert("Por favor, escribe un valor válido para los ingresos (con números).");
         numero = Number(prompt(pregunta));
         validado = validarDato(numero);
     }
